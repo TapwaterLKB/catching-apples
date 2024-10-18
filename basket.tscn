@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://ddfenqyur3rl8"]
+
+[ext_resource type="Script" path="res://basket.gd" id="1_bfy2o"]
+[ext_resource type="Texture2D" uid="uid://b7qdejf7mpe37" path="res://Basket.PNG.PNG" id="1_jak1x"]
+[ext_resource type="PackedScene" uid="uid://bt070uscdrvfg" path="res://apple_two.tscn" id="2_mnmd3"]
+
+[node name="Basket" type="Area2D"]
+scale = Vector2(1.38899, 1.43349)
+script = ExtResource("1_bfy2o")
+apple_scene = ExtResource("2_mnmd3")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.199018, 0.199018)
+texture = ExtResource("1_jak1x")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="StaticBody2D"]
+position = Vector2(0.719948, 4.18559)
+rotation = 0.000351327
+polygon = PackedVector2Array(-69, -43, -44.6414, -13.2387, 35.9922, -14.6622, 63, -48, 52.5576, 4.16712, -0.704997, 42.5537, -56.1532, 7.69331)
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="."]
+position = Vector2(0.719948, 4.18559)
+rotation = 0.000351327
+polygon = PackedVector2Array(-69, -43, -44.6414, -13.2387, 35.9922, -14.6622, 63, -48, 52.5576, 4.16712, -0.704997, 42.5537, -56.1532, 7.69331)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

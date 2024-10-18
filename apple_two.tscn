@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://bt070uscdrvfg"]
+
+[ext_resource type="Script" path="res://apple_two.gd" id="1_hlapb"]
+[ext_resource type="Texture2D" uid="uid://dv6pacrcypocf" path="res://Apple.PNG.PNG" id="1_m3cco"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_0y82h"]
+bounce = 0.2
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_p4p0d"]
+radius = 9.29015
+
+[node name="AppleTwo" type="RigidBody2D"]
+collision_layer = 2
+physics_material_override = SubResource("PhysicsMaterial_0y82h")
+gravity_scale = 0.08
+script = ExtResource("1_hlapb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(7.45055e-09, 6.55918)
+rotation = -1.58862
+scale = Vector2(2.87883, -3.11802)
+shape = SubResource("CircleShape2D_p4p0d")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(1, 4)
+scale = Vector2(0.150572, 0.146316)
+texture = ExtResource("1_m3cco")

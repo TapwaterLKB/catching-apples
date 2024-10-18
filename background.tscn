@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://c7d3l5ahp6lii"]
+
+[ext_resource type="Texture2D" uid="uid://5ylh51dhjfr3" path="res://Background.PNG.PNG" id="1_dur6p"]
+[ext_resource type="Texture2D" uid="uid://cwmurunij5hnj" path="res://BackgroundBlueGOOD.PNG" id="1_h3r1n"]
+
+[node name="Background" type="StaticBody2D"]
+
+[node name="Blue" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-10.972, -15.5)
+scale = Vector2(0.548479, 0.51773)
+texture = ExtResource("1_h3r1n")
+
+[node name="Orange" type="Sprite2D" parent="."]
+position = Vector2(-3, -11)
+scale = Vector2(0.241802, 0.228246)
+texture = ExtResource("1_dur6p")
