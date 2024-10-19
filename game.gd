@@ -23,7 +23,6 @@ func update_score(score):
 	$ScoreLabel.text = str(score)
 
 func _on_basket_caught(apl: Node2D) -> void:
-	print("working :0")
 	score += 1
 	apl.queue_free()
 	update_score(score)
