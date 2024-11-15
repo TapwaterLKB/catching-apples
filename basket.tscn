@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://ddfenqyur3rl8"]
 
 [ext_resource type="Script" path="res://basket.gd" id="1_bfy2o"]
-[ext_resource type="Texture2D" uid="uid://b7qdejf7mpe37" path="res://Basket.PNG.PNG" id="1_jak1x"]
+[ext_resource type="Texture2D" uid="uid://bak5hp380aecw" path="res://Basket.PNG.PNG" id="1_jak1x"]
 [ext_resource type="PackedScene" uid="uid://bt070uscdrvfg" path="res://apple_two.tscn" id="2_mnmd3"]
 
 [node name="Basket" type="Area2D"]

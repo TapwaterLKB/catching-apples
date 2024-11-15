@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://co5nkb1k6e65u"]
 
 [ext_resource type="Script" path="res://start_screen.gd" id="1_xxgff"]
-[ext_resource type="Texture2D" uid="uid://dl4av7ruytgsm" path="res://Start screen.PNG" id="2_dr6nn"]
+[ext_resource type="Texture2D" uid="uid://cnx6d2nqgkyuc" path="res://Start screen.PNG" id="2_dr6nn"]
 [ext_resource type="PackedScene" uid="uid://csuweekn78q4i" path="res://start_button.tscn" id="3_gquvu"]
 
 [node name="StartScreen" type="Node2D"]

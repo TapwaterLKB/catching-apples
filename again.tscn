@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://imggildnpcgc"]
 
-[ext_resource type="Texture2D" uid="uid://bces3rk4q55sl" path="res://Again button.PNG" id="1_k12aa"]
+[ext_resource type="Texture2D" uid="uid://vdkftf5dmwpa" path="res://Again button.PNG" id="1_k12aa"]
 [ext_resource type="Script" path="res://again.gd" id="2_l5v33"]
-[ext_resource type="Texture2D" uid="uid://b2uamlbfo87yq" path="res://NewGameTXT.PNG" id="3_jqort"]
+[ext_resource type="Texture2D" uid="uid://deoqtgnjaq12k" path="res://NewGameTXT.PNG" id="3_jqort"]
 
 [node name="Again" type="Button"]
 anchors_preset = -1

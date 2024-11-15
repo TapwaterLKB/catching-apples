@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://csuweekn78q4i"]
 
 [ext_resource type="Script" path="res://start_button.gd" id="1_b2awu"]
-[ext_resource type="Texture2D" uid="uid://bw148l8strxtm" path="res://Start button.PNG" id="1_lsf7d"]
+[ext_resource type="Texture2D" uid="uid://btcuqmpijrcbb" path="res://Start button.PNG" id="1_lsf7d"]
 
 [node name="StartButton" type="Button"]
 offset_left = 142.0
