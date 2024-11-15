@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://bt070uscdrvfg"]
 
 [ext_resource type="Script" path="res://apple_two.gd" id="1_hlapb"]
-[ext_resource type="Texture2D" uid="uid://x6x20p2d3364" path="res://Apple.PNG.PNG" id="1_m3cco"]
+[ext_resource type="Texture2D" uid="uid://b4o78jav1to5e" path="res://Apple.PNG.PNG" id="1_m3cco"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_0y82h"]
 bounce = 0.2
