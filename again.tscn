@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://imggildnpcgc"]
+
+[ext_resource type="Texture2D" uid="uid://bces3rk4q55sl" path="res://Again button.PNG" id="1_k12aa"]
+[ext_resource type="Script" path="res://again.gd" id="2_l5v33"]
+[ext_resource type="Texture2D" uid="uid://b2uamlbfo87yq" path="res://NewGameTXT.PNG" id="3_jqort"]
+
+[node name="Again" type="Button"]
+anchors_preset = -1
+anchor_right = 1.25
+anchor_bottom = 0.787
+offset_bottom = 0.0239563
+scale = Vector2(0.224226, 0.224226)
+icon = ExtResource("1_k12aa")
+script = ExtResource("2_l5v33")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(720, 248)
+scale = Vector2(1.11952, 1.11952)
+texture = ExtResource("3_jqort")
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]
+[connection signal="pressed" from="." to="." method="_on_pressed"]

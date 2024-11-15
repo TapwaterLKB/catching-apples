@@ -4,11 +4,9 @@ extends Area2D
 
 signal caught
 
-func _ready() -> void:
-	pass # Replace with function body.
-	
 func _process(_delta: float) -> void:
-	pass
+	if Input.is_action_pressed("move_right"):
+		$CollisionPolygon2D3.position.x = 90
 	
 func _on_body_entered(body: Node2D) -> void:
 	caught.emit(body)
